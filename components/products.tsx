@@ -15,7 +15,7 @@ const ItemLink = ({children, url}: ItemLinkProps) => (
     <a href={url} rel="noopener noreferrer nofollow" target="_blank">{children}</a>
 );
 
-const productsModule: React.FC = () => {
+const ProductsModule: React.FC = () => {
     const { data, error } = useSWR('/api/prd', productsFetcher)
 
     let productsViewChild: ReactElement
@@ -66,4 +66,4 @@ const productsModule: React.FC = () => {
     return productsViewChild
 }
 
-export default productsModule
+export default ProductsModule
