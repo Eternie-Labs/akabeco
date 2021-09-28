@@ -1,0 +1,20 @@
+{
+    "ja": {
+        "title": "赤べこからパワーを",
+        "buttonMessage": "これは何？",
+        "buttonClose": "閉じる",
+        "oppositeLang": "English",
+        "oppositeLocale": "en",
+        "privacyPolicy": "プライバシーポリシー",
+        "creativeCommons": "クリエイティブ・コモンズ・ライセンス"
+    },
+    "en": {
+        "title": "Gain the Power from Akabeko",
+        "buttonMessage": "What's this?",
+        "buttonClose": "Close",
+        "oppositeLang": "Japanese",
+        "oppositeLocale": "ja",
+        "privacyPolicy": "Privacy Policy (English version not published yet)",
+        "creativeCommons": "Creative Commons License"
+    }
+}
