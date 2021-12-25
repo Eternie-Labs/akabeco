@@ -10,6 +10,7 @@ import messageDictionary from '../assets/messages.json'
 import Text from "../components/text"
 import { Locale } from '../utilities/localeTypes'
 import Footer from '../components/footer'
+import cloudflareLoader from '../utilities/cloudflareLoader'
 
 interface HomePageProps {
   files: string[],
@@ -19,7 +20,7 @@ const Home: NextPage<HomePageProps> = ({files}) => {
   const [descriptionShown, setDescriptionShown] = useState(false);
 
   const imageFile = files[Math.floor(Math.random() * files.length)]
-  const image = (<Image src={`/images/${imageFile}`} alt="" width="1920" height="1080" layout="responsive" />)
+  const image = (<Image loader={cloudflareLoader} src={`/images/${imageFile}`} alt="" width="1920" height="1080" layout="responsive" />)
   const router = useRouter()
   const clientLocale = router.locale || 'ja'
   const textLocale: Locale = clientLocale === 'ja' ? 'ja' : 'en'
