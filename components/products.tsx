@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { ReactElement, ReactNode } from "react";
 import useSWR from "swr"
 import classNames from "../utilities/classNames";
@@ -48,7 +49,7 @@ const ProductsModule: React.FC = () => {
                 return (
                     <div className={classNames(setClass)} key={itemCode}>
                         <div className="md:mx-auto">
-                            <ItemLink url={itemUrl}><img src={image} className="w-32" alt="" /></ItemLink>
+                            <ItemLink url={itemUrl}><Image src={image} className="w-32" alt="" width={128} height={128} /></ItemLink>
                         </div>
                         <div className="md:text-center">
                             <ItemLink url={itemUrl}>{itemName}</ItemLink>

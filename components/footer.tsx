@@ -2,6 +2,7 @@ import React, { CSSProperties } from "react"
 import classNames from "../utilities/classNames"
 import messageDictionary from '../assets/messages.json'
 import { Locale } from "../utilities/localeTypes"
+import Image from "next/image"
 
 interface FooterParams {
     className: string
@@ -29,7 +30,7 @@ const Footer: React.FC<FooterParams> = ({className, style, locale}) => {
           </div>
         </div>
         <div className="md:text-right md:justify-end">
-          <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt={creativeCommons} src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+          <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><Image alt={creativeCommons} src="https://i.creativecommons.org/l/by/4.0/88x31.png" width={88} height={31} /></a>
         </div>
       </div>
     )
