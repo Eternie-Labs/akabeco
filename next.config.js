@@ -9,6 +9,7 @@ module.exports = {
     domains: [
       'i.creativecommons.org',
       'thumbnail.image.rakuten.co.jp',
-    ]
+    ],
+    minimumCacheTTL: 86400,
   }
 }
