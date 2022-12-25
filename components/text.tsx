@@ -27,7 +27,7 @@ const Text: React.FC<TextProps> = ({className, locale}) => {
                     The images of Akabeko used in this site (excluding quoted ones) are licensed under <a rel="license noopener noreferrer" target="_blank" href="http://creativecommons.org/licenses/by/4.0/" className="underline">CC-BY 4.0 License</a>.
                 </p>
                 <p>
-                    The source code of this website is available on <a href="https://github.com/kuropen/akabeco">GitHub</a>.<br/>
+                    The source code of this website is available on <a href="https://github.com/Eternie-Labs/akabeco">GitHub</a>.<br/>
                     Please feel free to make a Pull Request such as addition of Akabeko images.
                 </p>
             </section>
@@ -47,7 +47,7 @@ const Text: React.FC<TextProps> = ({className, locale}) => {
                     <a rel="license noopener noreferrer" target="_blank" href="http://creativecommons.org/licenses/by/4.0/" className="underline">クリエイティブ・コモンズ 表示 4.0 国際 ライセンス</a>の下に提供されています。
                 </p>
                 <p>
-                    このサイトのソースコードは<a href="https://github.com/kuropen/akabeco">GitHub</a>で公開されています。<br/>
+                    このサイトのソースコードは<a href="https://github.com/Eternie-Labs/akabeco">GitHub</a>で公開されています。<br/>
                     赤べこの画像追加などのPull Requestは歓迎します。
                 </p>
 

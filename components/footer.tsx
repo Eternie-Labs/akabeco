@@ -24,6 +24,7 @@ const Footer: React.FC<FooterParams> = ({className, style, locale}) => {
         <div className="md:flex-grow">
           <div className="md:inline">
             <a href="https://kuropen.org/" className="underline" target="_blank" rel="noopener noreferrer">Copyright (C) Kuropen</a>.
+            Hosted by <a href="https://www.eternie-labs.net/" className="underline" target="_blank" rel="noopener noreferrer">Eternie Labs</a>.
           </div>
           <div className="md:inline md:ml-1">
             <a href="https://penguinone.kuropen.org/privacy" className="underline" target="_blank" rel="noopener noreferrer">{privacyPolicy}</a>
