@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { ReactElement, ReactNode } from "react";
 import useSWR from "swr"
 import classNames from "../utilities/classNames";

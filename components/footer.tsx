@@ -2,7 +2,7 @@ import React, { CSSProperties } from "react"
 import classNames from "../utilities/classNames"
 import messageDictionary from '../assets/messages.json'
 import { Locale } from "../utilities/localeTypes"
-import Image from "next/image"
+import Image from "next/legacy/image"
 
 interface FooterParams {
     className: string
