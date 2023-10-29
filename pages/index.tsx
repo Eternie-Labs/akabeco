@@ -1,6 +1,6 @@
 import type { GetStaticProps, NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 import { readdir } from 'fs/promises'
 import path from 'path'
 import React, { useState } from 'react'
