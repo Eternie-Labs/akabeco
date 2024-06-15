@@ -1,7 +1,5 @@
 import React from "react";
-import Products from "./products";
-// @ts-ignore
-import { TwitterTweetEmbed } from "react-twitter-embed"
+import Products from "./products"
 import { TextProps } from "./textProps"
 import Link from 'next/link'
 
@@ -52,11 +50,6 @@ const Text: React.FC<TextProps> = ({className, locale}) => {
                 </p>
 
                 <h2 className="font-bold">あなたのそばにも赤べこを</h2>
-                <p>赤べこの護符: 土津神社（猪苗代町）がTwitterで公開中</p>
-                <div className="m-2">
-                    <TwitterTweetEmbed tweetId="1344792963226865664" />
-                </div>
-
                 <p>赤べこを買う<br className="md:hidden" />（※楽天市場のサイトに遷移します）</p>
                 <Products />
             </section>
